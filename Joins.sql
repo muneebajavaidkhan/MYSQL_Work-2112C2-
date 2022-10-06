@@ -4,3 +4,5 @@ select * from Employee
 select * from Department
 
 select * from Department inner join Employee on Department.DID = Employee.Dept
+
+select * from Department left join Employee on Department.DID = Employee.Dept
